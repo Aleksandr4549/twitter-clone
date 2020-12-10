@@ -1,12 +1,13 @@
 import React from 'react';
 
-import './App.css';
+import SignIn from './pages/SignIn';
+import './app.scss';
 
 const App = () => {
   return (
-    <div className="app">
-      <h1>twitter</h1>
-    </div>
+      <div className='app'>
+        <SignIn />
+      </div>
   );
 }
 
